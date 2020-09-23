@@ -22,6 +22,24 @@ class _UserTransactionsState extends State<UserTransactions> {
       title: 'Weekly Groceries',
       amount: 16.53,
       date: DateTime.now(),
+    ),
+    Transaction(
+      id: DateTime.now().toString(),
+      title: 'Others',
+      amount: 00.00,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: DateTime.now().toString(),
+      title: 'Others',
+      amount: 00.00,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: DateTime.now().toString(),
+      title: 'Others',
+      amount: 00.00,
+      date: DateTime.now(),
     )
   ];
 
